@@ -10,7 +10,7 @@ def check_temp():
 if __name__ == '__main__':
     t = input("Enter your temperture :")
     while t !='q':
-        if t.isnumeric()
+        if t.isnumeric():
             t = int(t)
             print(check_temp(t))
         else:
